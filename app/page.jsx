@@ -3,6 +3,7 @@ import { } from "react-icons/fi"
 import { FiDownload } from "react-icons/fi"
 import Socials from "@/components/Socials"
 import Photo from "@/components/Photo"
+import Stats from "@/components/Stats"
 
 
 const Home = () => {
@@ -13,7 +14,7 @@ const Home = () => {
           <div className="text-center xl:text-left order-2 xl:order-none">
             <span className="text-xl">Software Developer</span>
             <h1 className="h1">
-              Hello I am<br /> <sapn className="text-accent">Thitiwut Sathaphonbumrungphao</sapn>
+              Hello I'am<br /> <sapn className="text-accent">Thitiwut Sathaphonbumrungphao</sapn>
             </h1>
             <p className="max-w-[500px] mb-9 text-white/80">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur dolorem nobis natus quis molestias voluptatibus
@@ -39,6 +40,7 @@ const Home = () => {
 
         </div>
       </div>
+      <Stats />
     </section >
   )
 }
