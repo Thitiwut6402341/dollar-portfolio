@@ -1,3 +1,4 @@
+"use client"
 import { Button } from "@/components/ui/button"
 import { } from "react-icons/fi"
 import { FiDownload } from "react-icons/fi"
@@ -7,6 +8,14 @@ import Stats from "@/components/Stats"
 
 
 const Home = () => {
+
+  const handleDownload = () => {
+    const link = document.createElement('a');
+    link.href = 'https://drive.google.com/file/d/1KjI6UC24eyoqZwFcXtpV58qw7rTl5con/view?usp=sharing';
+    link.download = 'Resume_Thitiwut_26-06-24';
+    link.click();
+  };
+
   return (
     <section className="h-full">
       <div className="container mx-auto h-full">
@@ -17,12 +26,14 @@ const Home = () => {
               Hello I'am<br /> <sapn className="text-accent">Thitiwut Sathaphonbumrungphao</sapn>
             </h1>
             <p className="max-w-[500px] mb-9 text-white/80">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur dolorem nobis natus quis molestias voluptatibus
-              excepturi deleniti dolorum labore, necessitatibus officiis voluptate nostrum neque iste odit, accusantium expedita, rem delectus.
+              Passionate about technology business, with Software Developer and Researcher experiences.
+              Seeking for an opportunity to have a career in engineering field of Software, IIoT, AI, ML including SQL,
+              Python, Statistical analysis, and others. where I will be able to contribute my skill & knowledge and
+              experience to support the organization’ s growth efficiently.
             </p>
             <div className="flex flex-col xl:flex-row items-center gap-8 ">
-              <Button variant="outline" size="lg" className="uppercase flex items-center gap-2">
-                <span>Download CV</span>
+              <Button variant="outline" size="lg" className="uppercase flex items-center gap-2" onClick={handleDownload}>
+                <span>Download Resume</span>
                 <FiDownload className="text-xl" />
               </Button>
               <div className="mb-8 xl:mb-0">

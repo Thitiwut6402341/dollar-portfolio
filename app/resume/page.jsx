@@ -1,7 +1,7 @@
 'use client';
 
 import { FaHtml5, FaCss3, FaJs, FaReact, FaNodeJs, FaFigma, FaPython, FaDatabase, FaPhp, FaRaspberryPi } from 'react-icons/fa';
-import { SiTaiwindcss, SiNextdotjs, SiPostgresql, SiMongodb, SiTypescript, SiNodered, SiScikitlearn, SiPytorch, SiNestjs } from 'react-icons/si';
+import { SiTaiwindcss, SiNextdotjs, SiPostgresql, SiMongodb, SiTypescript, SiNodered, SiScikitlearn, SiPytorch, SiNestjs, SiMicrosoftsqlserver } from 'react-icons/si';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { motion } from 'framer-motion';
 import { Tooltip, TooltipTrigger, TooltipContent, TooltipProvider } from '@/components/ui/tooltip';
@@ -9,14 +9,17 @@ import { ScrollArea } from '@/components/ui/scroll-area';
 
 const about = {
     title: "About Me",
-    description: "I am a full stack developer with a passion for creating beautiful and functional websites. I have experience in both front-end and back-end development, and I am always looking to learn new technologies and improve my skills. I am proficient in HTML, CSS, JavaScript, React, Node.js, and more. I am also familiar with tools like Figma, MongoDB, and PostgreSQL. I am a quick learner and a problem solver, and I am always up for a challenge. I am currently looking for new opportunities to work on exciting projects and expand my skill set.",
+    description: `Passionate about technology business, with Software Developer and Researcher experiences.
+Seeking for an opportunity to have a career in engineering field of Software, IIoT, AI, ML including SQL,
+Python, Statistical analysis, and others. where I will be able to contribute my skill & knowledge and
+experience to support the organization’ s growth efficiently.`,
     info: [
         { fieldName: "Name", fieldValue: "Thitiwut Sathapornbumrungphao" },
         { fieldName: "Phone", fieldValue: "(+66) 879592663" },
         { fieldName: "Experience", fieldValue: "1+ Years" },
         { fieldName: "Email", fieldValue: "thitiwut.sat@gmail.com" },
         { fieldName: "Location", fieldValue: "Bangkok, Thailand" },
-        { fieldName: "Languages", fieldValue: "Thai, English" },
+        { fieldName: "Languages", fieldValue: "Thai, English (TOEIC 560)" },
     ],
 };
 
@@ -76,6 +79,7 @@ const skills = {
         { icon: <FaDatabase />, name: "Database Management" },
         { icon: <SiMongodb />, name: "MongoDB" },
         { icon: <SiPostgresql />, name: "PostgreSQL" },
+        { icon: <SiMicrosoftsqlserver />, name: "MSSQL" },
         { icon: <FaPhp />, name: "PHP language" },
         { icon: <SiTypescript />, name: "TypeScript" },
         { icon: <FaJs />, name: "JavaScript" },
@@ -85,13 +89,11 @@ const skills = {
         { icon: <SiScikitlearn />, name: "Skitlearn" },
         { icon: <FaRaspberryPi />, name: "RaspberryPi" },
         { icon: <SiNodered />, name: "Node-red" },
-        // {
-        //     icon:
-
-        //         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/matlab/matlab-original.svg" />
-
-        //     , name: "MatLAB"
-        // },
+        { icon: <FaHtml5 />, name: "HTML5" },
+        { icon: <FaCss3 />, name: "CSS3" },
+        { icon: <FaReact />, name: "React" },
+        { icon: <SiNextdotjs />, name: "Next.js" },
+        { icon: <FaNodeJs />, name: "Node.js" },
     ],
 };
 
