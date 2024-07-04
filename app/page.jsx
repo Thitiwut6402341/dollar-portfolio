@@ -27,7 +27,7 @@ const Home = () => {
             </h2>
             <p className=" mb-9 text-white/80 ">
               Passionate about technology business, with Software Developer and Researcher experiences.
-              Seeking for an opportunity to have a career in engineering field of Software, IIoT, AI, ML including SQL,
+              Seeking for an opportunity to have a career in engineering field of Software, IIoT, AI, ML including SQL, NoSQL,
               Python, Statistical analysis, and others. where I will be able to contribute my skill & knowledge and
               experience to support the organization’ s growth efficiently.
             </p>
