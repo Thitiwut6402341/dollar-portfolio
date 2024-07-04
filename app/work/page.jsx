@@ -59,7 +59,7 @@ const projects = [
         category: "Backend Development",
         title: "Carbon Credit System",
         description: "RESTful API for carbon credit system to manage and monitor the carbon credit of an organization.",
-        stack: [{ name: "MongoDB" }, { name: "NestJS" }, { name: "TypeScript" }, { name: "Git/Github" }, { name: "Postman" }],
+        stack: [{ name: "MSSQL" }, { name: "NestJS" }, { name: "TypeScript" }, { name: "Git/Github" }, { name: "Postman" }],
         image: '/assets/work/work3.png',
         live: "https://snc-services.sncformer.com/iccs/",
         github: ""
