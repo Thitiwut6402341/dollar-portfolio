@@ -168,11 +168,11 @@ const Resume = () => {
                                     <h3 className="text-4xl font-bold">
                                         {skills.title}
                                     </h3>
-                                    <p className="max-w-[700px] h-[45px] text-white/60 xl:mx-0 flex flex-col">{skills.description}</p>
+                                    <p className="max-w-full h-full text-white/60 xl:mx-0 flex flex-col">{skills.description}</p>
                                 </div>
 
                             </div>
-                            <ul className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
+                            <ul className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-5">
                                 {skills.skillList.map((skill, index) => {
                                     return <li key={index}>
                                         <TooltipProvider delayDuration={100}>

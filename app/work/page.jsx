@@ -81,7 +81,7 @@ const projects = [
         description: "Designed and developed a system to calculate and monitor the carbon footprint of an organization.",
         stack: [{ name: "MongoDB" }, { name: "NestJS" }, { name: "TypeScript" }, { name: "Git/Github" }, { name: "Postman" }],
         image: '/assets/work/work5.png',
-        live: "https://snc-services.sncformer.com/icfo/",
+        live: "https://snc-services.sncformer.com/icts",
         github: ""
     },
     {
