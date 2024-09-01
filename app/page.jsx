@@ -11,8 +11,8 @@ const Home = () => {
 
   const handleDownload = () => {
     const link = document.createElement('a');
-    link.href = 'https://drive.google.com/file/d/1VuFtM5g4xKmYTd-WBezgO-eNSImrIP7g/view?usp=sharing';
-    link.download = 'Resume_Thitiwut_21-08-24';
+    link.href = 'https://drive.google.com/file/d/1y0x9BjOE13_ACrYggTuCNQTNfeLkgH9Z/view?usp=sharing';
+    link.download = 'Resume_Thitiwut_28-08-24';
     link.click();
   };
 
