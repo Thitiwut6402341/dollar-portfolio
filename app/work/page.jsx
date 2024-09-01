@@ -91,7 +91,7 @@ const projects = [
         description: "Developed a system to manage and monitor the export of durian from Thailand to China.",
         stack: [{ name: "MongoDB" }, { name: "NestJS" }, { name: "TypeScript" }, { name: "Git/Github" }, { name: "Postman" }],
         image: '/assets/work/work6.png',
-        live: "https://snc-services.sncformer.com/idee-v2/",
+        live: "https://snc-services.sncformer.com/idee-v3/",
         github: ""
     },
 ];
