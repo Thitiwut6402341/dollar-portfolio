@@ -30,7 +30,7 @@ const experience = {
         {
             company: "99 Industrial Solution",
             position: "Backend Developer",
-            duration: "2023 - Present",
+            duration: "2023 - 2024",
             description: "Developed websites for clients using PHP, TypeScript, MongoDB, PostgreSQL. Worked on both front-end and back-end development, and collaborated with clients to create custom solutions that met their needs."
         },
         {
