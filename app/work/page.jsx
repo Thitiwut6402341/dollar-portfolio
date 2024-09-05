@@ -56,7 +56,7 @@ const projects = [
     },
     {
         num: "05",
-        category: "Backend Development",
+        category: "Web Development",
         title: "Carbon Credit System",
         description: "RESTful API for carbon credit system to manage and monitor the carbon credit of an organization.",
         stack: [{ name: "MSSQL" }, { name: "NestJS" }, { name: "TypeScript" }, { name: "Git/Github" }, { name: "Postman" }],
@@ -76,7 +76,7 @@ const projects = [
     },
     {
         num: "07",
-        category: "Backend Development",
+        category: "Web Development",
         title: "Carbon Footprint for Organization (CFO) system",
         description: "Designed and developed a system to calculate and monitor the carbon footprint of an organization.",
         stack: [{ name: "PostgreSQL" }, { name: "NestJS" }, { name: "TypeScript" }, { name: "Git/Github" }, { name: "Postman" }],
